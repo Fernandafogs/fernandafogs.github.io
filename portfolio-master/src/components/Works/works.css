@@ -1,0 +1,261 @@
+*#works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 80rem;
+    display: grid !important;
+    place-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 50px !important;
+    height: 90vh !important;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box !important;
+    scrollbar-color: transparent transparent !important;
+    scrollbar-width: 0px !important;
+}
+
+
+.worksTitle {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 51rem;
+    text-align: center;
+}
+
+.carousel {
+    display: block;
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+}
+
+.carousel_viewport {
+    height: 60vh;
+}
+
+.carousel_item {
+    object-fit: cover !important;
+    height: 90% !important;
+    width: 100% !important;
+}
+
+
+
+/*#works {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+}
+
+.works_desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    perspective: 100px;
+    overflow: hidden;
+}
+
+.carousel_viewport {
+    display: flex;
+    height: 90%;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.carousel_viewport::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel_slide {
+    position: relative;
+    flex: 0 0 33.33%;
+    width: 33.33%;
+    counter-increment: item;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.carousel_snapper {
+    max-width: 100%;
+    max-height: 100%;
+    width: 55vh;
+    height: 40vh;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}*/
+
+
+/*
+#works {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+}
+
+.works_desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    white-space: nowrap;
+    perspective: 100px;
+}
+
+.carousel_viewport {
+    display: flex;
+    height: 90%; 
+    overflow-x: auto; 
+    white-space: nowrap;
+    position: absolute;
+    
+}
+
+.carousel_slide {
+    position: relative;
+    flex: 0 0 33.33%;
+    width: 33.33%;
+    counter-increment: item;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+
+
+.carousel_snapper {
+    max-width: 100%;
+    max-height: 100%;
+    width: 55vh;
+    height: 40vh;
+}*/
+
+
+
+
