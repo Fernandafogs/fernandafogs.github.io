@@ -30,13 +30,13 @@ const Contact = () => {
                 <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                 <button type="submit" value="Send" className="submitBtn">Submit</button>
                 <div className="links">
-                    <a href="https://www.linkedin.com/in/fernanda-ramos-fogaca/" target="_blank">
+                    <a href="https://www.linkedin.com/in/fernanda-ramos-fogaca/" target="_blank" rel="noreferrer">
                         <img src={Linkedin} alt="Linkedin" className="link" />
                     </a>
-                    <a href="https://github.com/Fernandafogs" target="_blank">
+                    <a href="https://github.com/Fernandafogs" target="_blank" rel="noreferrer">
                         <img src={GitHub} alt="GitHub" className="link" />
                     </a>
-                    <a href="https://twitter.com/fernandafogaca" target="_blank">
+                    <a href="https://twitter.com/fernandafogaca" target="_blank" rel="noreferrer">
                         <img src={Twitter} alt="Twitter" className="link" />
                     </a>
                 </div>
