@@ -21,11 +21,13 @@ const Works = () => {
             <div className= "carousel">
                 <Carousel className='carousel_viewport' fade pause="hover">
                 <Carousel.Item className='carousel_item' interval={1500}>
-                    <img
-                    className="d-block w-100 h-100"
-                    src={Portfolio1}
-                    alt="Portfolio 1"
-                    />
+                    <a href="https://github.com/Fernandafogs/recipe-app" target="_blank" rel="noreferrer">
+                        <img
+                        className="d-block w-100 h-100"
+                        src={Portfolio1}
+                        alt="Portfolio 1"
+                        />
+                    </a>
                 </Carousel.Item>
                 <Carousel.Item className='carouselItem' interval={500}>
                     <img
